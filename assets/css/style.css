@@ -814,6 +814,10 @@ a {
   position: relative;
   overflow-x: hidden; }
 
+@media screen and (min-width: 96em) {
+  .page-header {
+    padding: 3rem 4rem; } }
+
 h1.project-name {
   font-family: 'Courier New', Courier, monospace; }
 
