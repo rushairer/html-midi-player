@@ -9,43 +9,37 @@
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:locale" content="en_US" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"/html-midi-player/","@context":"https://schema.org"}</script>
+{"@type":"WebSite","url":"/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/html-midi-player/assets/css/style.css?v='">
+    <link rel="stylesheet" href="/assets/css/style.css?v='">
     <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.22.1/es6/core.js"></script>
-    <script type="text/javascript" src="/html-midi-player/assets/js/index.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
   </head>
   <body>
     <header class="page-header" role="banner">
-      <h1 class="project-name">html-midi-player</h1>
-      <h2 class="project-tagline">Play and display MIDI files on the web</h2>
-      
-        <a href="https://github.com/cifkao/html-midi-player" class="btn">View on GitHub</a>
-      
-      
+      <h1 class="project-name">Midi 播放器</h1>
+      <h2 class="project-tagline">播放midi音乐</h2>
     </header>
 
     <main id="content" class="main-content" role="main">
       <div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/cifkao/html-midi-player@2b12128/jazz.mid"></midi-visualizer>
+<midi-visualizer type="staff" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/cifkao/html-midi-player@2b12128/jazz.mid"></midi-visualizer>
 <midi-player src="https://cdn.jsdelivr.net/gh/cifkao/html-midi-player@2b12128/jazz.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
 </div>
 
 <p>
-<label for="midiFile">Load MIDI file:</label>
+<label for="midiFile">上传Midi文件</label>
 <input type="file" id="midiFile" name="midiFile" accept="audio/midi, audio/x-midi">
 </p>
 
 
       <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/cifkao/html-midi-player">html-midi-player</a> is maintained by <a href="https://github.com/cifkao">Ondřej Cífka</a>.</span>
-        
+                
       </footer>
     </main>
   </body>
